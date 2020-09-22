@@ -1,0 +1,31 @@
+[{
+    "title":" java",
+    "author":"Nithya",
+    "category":"programming",
+    "price":200
+},
+{
+    "title":"c",
+    "author":"Nithya",
+    "category":"tech",
+    "price":250
+},
+{
+    "title":"c++",
+    "author":"nis",
+    "category":"english",
+    "price":100
+},
+{
+    "title":"python",
+    "author":"poorva",
+    "category":"spanish",
+    "price":400
+},
+{
+    "title":"html",
+    "author":"pooji",
+    "category":"technical",
+    "price":450
+}
+]
