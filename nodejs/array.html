@@ -1,0 +1,37 @@
+<html>
+    <body>
+<p id='demo'>
+
+</p><script>
+    var x="",i,j;
+var mobiles=[
+            {
+                'Mobile' :'Oppo F15',
+                'Brand':'OPPO',
+                'price':20000,"features":{"Version":"android10"},
+                'accessories':['bluetooth','Earphone','Headphone']
+            },
+            {
+                'Mobile' :'Vivi Y12',
+                'Brand':'VIVO',
+                'price':12000,
+                'accessories':['bluetooth','Earphone']
+            },
+            {
+                'Mobile' :'Honor Bee 4G',
+                'Brand':'HONOR',
+                'price':7000,
+                'accessories':['Earphone']
+            }
+        ]
+        for (i in mobiles) {
+             x += "<h2>" + mobiles[i].Mobile + "</h2>"+"<br>"+mobiles[i].Brand+"<br>"+mobiles[i].price+"<br>"+mobiles[i].accessories;
+            
+            //   for (j in mobiles.features) {
+            //   x += mobiles.features.Version[j] + "<br>";
+            //   }
+        }
+        document.getElementById("demo").innerHTML = x;
+</script>
+</body>
+</html>
